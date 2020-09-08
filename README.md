@@ -1,4 +1,4 @@
-log [![Build Status](https://travis-ci.org/omigo/log.svg?branch=master)](https://travis-ci.org/omigo/log) [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/omigo/log) [![license](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/omigo/log/master/LICENSE)
+log [![Build Status](https://travis-ci.org/pvol/log.svg?branch=master)](https://travis-ci.org/pvol/log) [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/pvol/log) [![license](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/pvol/log/master/LICENSE)
 ================================================================================
 
 `log` 提供一
@@ -9,13 +9,13 @@ csv/json/xml，同时支持 Tag（TraceId/RequestId)。
 Usage
 -----
 
-安装：`go get -v -u github.com/omigo/log`
+安装：`go get -v -u github.com/pvol/log`
 
 使用：
 ``` go
 package main
 
-import "github.com/omigo/log"
+import "github.com/pvol/log"
 
 func main() {
     log.Debugf("this is a test message, %d", 1111)

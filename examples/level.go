@@ -1,6 +1,6 @@
 package main
 
-import "github.com/omigo/log"
+import "github.com/pvol/log"
 
 func execLevelExamples() {
 	// 默认日志级别 debug

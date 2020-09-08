@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func execCustomPrinterExample() {

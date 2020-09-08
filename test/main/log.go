@@ -3,7 +3,7 @@ package main
 import (
 	g "log"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func main() {

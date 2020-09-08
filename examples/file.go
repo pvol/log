@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func execSourceFileExamples() {

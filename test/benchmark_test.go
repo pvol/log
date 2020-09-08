@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func xTestPrint(t *testing.T) {

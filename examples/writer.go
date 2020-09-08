@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func execChangeWriterExample() {

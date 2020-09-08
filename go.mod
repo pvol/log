@@ -1,3 +1,3 @@
-module github.com/omigo/log
+module github.com/pvol/log
 
 go 1.15

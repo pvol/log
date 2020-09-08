@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/omigo/log"
+	"github.com/pvol/log"
 )
 
 func TestDefaultFormatFile(t *testing.T) {
@@ -35,7 +35,7 @@ func TestSetFormatFile(t *testing.T) {
 
 	rand := time.Now().String()
 	log.Debug(rand)
-	if bytes.HasPrefix(buf.Bytes(), ([]byte)("<file>github.com/omigo/log/test/log_test.go</file>")) {
+	if bytes.HasPrefix(buf.Bytes(), ([]byte)("<file>github.com/pvol/log/test/log_test.go</file>")) {
 		t.FailNow()
 	}
 

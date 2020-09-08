@@ -1,6 +1,6 @@
 package main
 
-import "github.com/omigo/log"
+import "github.com/pvol/log"
 
 func execColorizedExamples() {
 	log.SetLevel(log.Lall)

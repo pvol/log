@@ -9,7 +9,7 @@ import (
 const (
 	LevelToken   string = "info"
 	TagToken            = "tag"
-	PathToken           = "/go/src/github.com/omigo/log/examples/main.go"
+	PathToken           = "/go/src/github.com/pvol/log/examples/main.go"
 	FileToken           = "main.go"
 	LineToken    int    = 88
 	MessageToken string = "message"
